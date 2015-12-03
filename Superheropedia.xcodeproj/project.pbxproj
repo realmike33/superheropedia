@@ -13,6 +13,10 @@
 		EF0DAB861BF190C50029DD34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0DAB841BF190C50029DD34 /* Main.storyboard */; };
 		EF0DAB881BF190C50029DD34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0DAB871BF190C50029DD34 /* Assets.xcassets */; };
 		EF0DAB8B1BF190C50029DD34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0DAB891BF190C50029DD34 /* LaunchScreen.storyboard */; };
+		EF0DAB941BF1AACD0029DD34 /* RetiredSuperhero.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0DAB931BF1AACD0029DD34 /* RetiredSuperhero.m */; };
+		EF61DACA1BF439FF005BE20C /* fuuuuu.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = EF61DAC91BF439FF005BE20C /* fuuuuu.xcdatamodel */; };
+		EF61DACF1BF43C79005BE20C /* Superheros+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EF61DACC1BF43C79005BE20C /* Superheros+CoreDataProperties.m */; };
+		EF61DAD01BF43C79005BE20C /* Superheros.m in Sources */ = {isa = PBXBuildFile; fileRef = EF61DACE1BF43C79005BE20C /* Superheros.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		EF0DAB871BF190C50029DD34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF0DAB8A1BF190C50029DD34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF0DAB8C1BF190C50029DD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF0DAB921BF1AACD0029DD34 /* RetiredSuperhero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetiredSuperhero.h; sourceTree = "<group>"; };
+		EF0DAB931BF1AACD0029DD34 /* RetiredSuperhero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetiredSuperhero.m; sourceTree = "<group>"; };
+		EF61DAC91BF439FF005BE20C /* fuuuuu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fuuuuu.xcdatamodel; sourceTree = "<group>"; };
+		EF61DACB1BF43C79005BE20C /* Superheros+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Superheros+CoreDataProperties.h"; path = "../Superheros+CoreDataProperties.h"; sourceTree = "<group>"; };
+		EF61DACC1BF43C79005BE20C /* Superheros+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Superheros+CoreDataProperties.m"; path = "../Superheros+CoreDataProperties.m"; sourceTree = "<group>"; };
+		EF61DACD1BF43C79005BE20C /* Superheros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Superheros.h; path = ../Superheros.h; sourceTree = "<group>"; };
+		EF61DACE1BF43C79005BE20C /* Superheros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Superheros.m; path = ../Superheros.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +73,14 @@
 				EF0DAB7F1BF190C50029DD34 /* AppDelegate.m */,
 				EF0DAB811BF190C50029DD34 /* ViewController.h */,
 				EF0DAB821BF190C50029DD34 /* ViewController.m */,
+				EF0DAB921BF1AACD0029DD34 /* RetiredSuperhero.h */,
+				EF0DAB931BF1AACD0029DD34 /* RetiredSuperhero.m */,
 				EF0DAB841BF190C50029DD34 /* Main.storyboard */,
+				EF61DAD11BF43C94005BE20C /* super */,
 				EF0DAB871BF190C50029DD34 /* Assets.xcassets */,
 				EF0DAB891BF190C50029DD34 /* LaunchScreen.storyboard */,
 				EF0DAB8C1BF190C50029DD34 /* Info.plist */,
+				EF61DAC91BF439FF005BE20C /* fuuuuu.xcdatamodel */,
 				EF0DAB7B1BF190C50029DD34 /* Supporting Files */,
 			);
 			path = Superheropedia;
@@ -77,6 +92,17 @@
 				EF0DAB7C1BF190C50029DD34 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF61DAD11BF43C94005BE20C /* super */ = {
+			isa = PBXGroup;
+			children = (
+				EF61DACB1BF43C79005BE20C /* Superheros+CoreDataProperties.h */,
+				EF61DACD1BF43C79005BE20C /* Superheros.h */,
+				EF61DACE1BF43C79005BE20C /* Superheros.m */,
+				EF61DACC1BF43C79005BE20C /* Superheros+CoreDataProperties.m */,
+			);
+			name = super;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +178,10 @@
 				EF0DAB831BF190C50029DD34 /* ViewController.m in Sources */,
 				EF0DAB801BF190C50029DD34 /* AppDelegate.m in Sources */,
 				EF0DAB7D1BF190C50029DD34 /* main.m in Sources */,
+				EF0DAB941BF1AACD0029DD34 /* RetiredSuperhero.m in Sources */,
+				EF61DACA1BF439FF005BE20C /* fuuuuu.xcdatamodel in Sources */,
+				EF61DAD01BF43C79005BE20C /* Superheros.m in Sources */,
+				EF61DACF1BF43C79005BE20C /* Superheros+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +328,7 @@
 				EF0DAB911BF190C50029DD34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
